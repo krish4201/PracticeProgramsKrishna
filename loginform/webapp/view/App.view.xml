@@ -1,0 +1,15 @@
+<mvc:View controllerName="com.krishna.loginform.controller.App"
+    displayBlock="true"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns="sap.m">
+    <App id="app" >
+    <VBox class="sapUiSmallMargin hell" alignItems="Center" justifyContent="Center" fitContainer="true">
+        <Title text="Login Form" level="H1" class="sapUiMediumMarginBottom"/>
+        <Label text="Username" labelFor="usernameInput"/>
+        <Input id="usernameInput" placeholder="Enter your username" width="250px"/>
+        <Label text="Password" labelFor="passwordInput"/>
+        <Input id="passwordInput" type="Password" placeholder="Enter your password" width="250px"/>
+        <Button text="Login" type="Emphasized" press="onLoginPress"/>
+    </VBox>
+    </App>
+</mvc:View>
