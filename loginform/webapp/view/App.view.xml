@@ -1,0 +1,52 @@
+<mvc:View
+  controllerName="com.krishna.loginform.controller.App"
+  xmlns:core="sap.ui.core"
+  xmlns:mvc="sap.ui.core.mvc"
+  xmlns="sap.m"
+>
+  <App id="app">
+    <VBox class="sapUiSmallMargin" width="20rem">
+      <Title text="Login Form" class="sapUiSmallMarginBottom" />
+      <Label text="Name:" required="true" />
+      <Input
+        placeholder="Enter your Name"
+        value="{/username}"
+        required="true"
+      />
+      <Label text="Surname:" required="true" />
+      <Input
+        placeholder="Enter your Surname"
+        value="{/surname}"
+        required="true"
+      />
+      <Label text="Mobile Number:" required="true" />
+      <Input
+        placeholder="Enter your Mobile Number"
+        value="{/mobileNumber}"
+        type="Tel"
+        required="true"
+      />
+      <Label text="Email ID:" required="true" />
+      <Input
+        placeholder="Enter your Email ID"
+        value="{/emailId}"
+        type="Email"
+        required="true"
+      />
+      <Label text="Address:" />
+      <Input placeholder="Enter your Address" value="{/address}" />
+      <Label text="Gender:" />
+      <Select id="staticSelect" selectedKey="1" change="onSelectionChange">
+        <items>
+          <core:Item key="1" text="" />
+          <core:Item key="2" text="Male" />
+          <core:Item key="3" text="Female" />
+        </items>
+      </Select>
+      <Label text="Country:" />
+      <Input placeholder="Country" value="{/country}" />
+      <Button text="Submit" press="submitclick" />
+      <Text id="dataSubmitted" class="sapUiSmallMarginTop" />
+    </VBox>
+  </App>
+</mvc:View>
