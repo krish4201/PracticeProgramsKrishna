@@ -1,0 +1,110 @@
+{
+  "_version": "1.84.0",
+  "sap.app": {
+    "id": "demo.fragment.reuse",
+    "type": "application",
+    "i18n": "i18n/i18n.properties",
+    "applicationVersion": {
+      "version": "0.0.1"
+    },
+    "title": "{{appTitle}}",
+    "description": "{{appDescription}}",
+    "resources": "resources.json",
+    "sourceTemplate": {
+      "id": "@sap/generator-fiori:basic",
+      "version": "1.24.0",
+      "toolsId": "825ff729-2bb6-4f24-83cb-39d5d5e598ab"
+    }
+  },
+  "sap.ui": {
+    "technology": "UI5",
+    "icons": {
+      "icon": "",
+      "favIcon": "",
+      "phone": "",
+      "phone@2": "",
+      "tablet": "",
+      "tablet@2": ""
+    },
+    "deviceTypes": {
+      "desktop": true,
+      "tablet": true,
+      "phone": true
+    }
+  },
+  "sap.ui5": {
+    "flexEnabled": false,
+    "dependencies": {
+      "minUI5Version": "1.148.0",
+      "libs": {
+        "sap.m": {},
+        "sap.ui.core": {}
+      }
+    },
+    "contentDensities": {
+      "compact": true,
+      "cozy": true
+    },
+    "models": {
+      "i18n": {
+        "type": "sap.ui.model.resource.ResourceModel",
+        "settings": {
+          "bundleName": "demo.fragment.reuse.i18n.i18n"
+        }
+      }
+    },
+    "resources": {
+      "css": [
+        {
+          "uri": "css/style.css"
+        }
+      ]
+    },
+    "routing": {
+      "config": {
+        "routerClass": "sap.m.routing.Router",
+        "controlAggregation": "pages",
+        "controlId": "app",
+        "transition": "slide",
+        "type": "View",
+        "viewType": "XML",
+        "path": "demo.fragment.reuse.view",
+        "async": true,
+        "viewPath": "demo.fragment.reuse.view"
+      },
+      "routes": [
+
+                {
+                    "pattern": "",
+                    "name": "home",
+                    "target": "home"
+                },
+
+                {
+                    "pattern": "second",
+                    "name": "second",
+                    "target": "second"
+                }
+
+            ],
+
+            "targets": {
+
+                "home": {
+                    "viewName": "Home"
+                },
+
+                "second": {
+                    "viewName": "Second"
+                }
+
+            }
+    },
+    "rootView": {
+      "viewName": "demo.fragment.reuse.view.App",
+      "type": "XML",
+      "id": "App",
+      "async": true
+    }
+  }
+}

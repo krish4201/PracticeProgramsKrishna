@@ -1,7 +1,11 @@
 ## Application Details
 |               |
 | ------------- |
+<<<<<<< HEAD
 |**Generation Date and Time**<br>Tue May 12 2026 09:47:01 GMT+0000 (Coordinated Universal Time)|
+=======
+|**Generation Date and Time**<br>Mon May 18 2026 11:03:51 GMT+0000 (Coordinated Universal Time)|
+>>>>>>> Project
 |**App Generator**<br>SAP Fiori Application Generator|
 |**App Generator Version**<br>1.24.0|
 |**Generation Platform**<br>SAP Business Application Studio|
@@ -12,7 +16,11 @@
 |**Application Title**<br>App Title|
 |**Namespace**<br>com.krishna|
 |**UI5 Theme**<br>sap_horizon|
+<<<<<<< HEAD
 |**UI5 Version**<br>1.147.2|
+=======
+|**UI5 Version**<br>1.148.0|
+>>>>>>> Project
 |**Enable TypeScript**<br>False|
 |**Add Eslint configuration**<br>True, see https://www.npmjs.com/package/@sap-ux/eslint-plugin-fiori-tools#rules for the eslint rules.|
 

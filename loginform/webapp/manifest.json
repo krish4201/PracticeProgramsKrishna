@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
     "_version": "1.12.0",
 
     "sap.app": {
@@ -41,3 +42,91 @@
         }
     }
 }
+=======
+  "_version": "1.84.0",
+  "sap.app": {
+    "id": "com.krishna.loginform",
+    "type": "application",
+    "i18n": "i18n/i18n.properties",
+    "applicationVersion": {
+      "version": "0.0.1"
+    },
+    "title": "{{appTitle}}",
+    "description": "{{appDescription}}",
+    "resources": "resources.json",
+    "sourceTemplate": {
+      "id": "@sap/generator-fiori:basic",
+      "version": "1.24.0",
+      "toolsId": "784935c7-9339-4128-976f-009538721bc5"
+    }
+  },
+  "sap.ui": {
+    "technology": "UI5",
+    "icons": {
+      "icon": "",
+      "favIcon": "",
+      "phone": "",
+      "phone@2": "",
+      "tablet": "",
+      "tablet@2": ""
+    },
+    "deviceTypes": {
+      "desktop": true,
+      "tablet": true,
+      "phone": true
+    }
+  },
+  "sap.ui5": {
+    "flexEnabled": false,
+    "dependencies": {
+      "minUI5Version": "1.148.0",
+      "libs": {
+        "sap.m": {},
+        "sap.ui.core": {}
+      }
+    },
+    "contentDensities": {
+      "compact": true,
+      "cozy": true
+    },
+    "models": {
+      "i18n": {
+        "type": "sap.ui.model.resource.ResourceModel",
+        "settings": {
+          "bundleName": "com.krishna.loginform.i18n.i18n"
+        }
+      }
+    },
+    "resources": {
+      "css": [
+        {
+          "uri": "css/style.css"
+        }
+      ]
+    },
+    "routing": {
+      "config": {
+        "routerClass": "sap.m.routing.Router",
+        "controlAggregation": "pages",
+        "controlId": "app",
+        "transition": "slide",
+        "type": "View",
+        "viewType": "XML",
+        "path": "com.krishna.loginform.view",
+        "async": true,
+        "viewPath": "com.krishna.loginform.view"
+      },
+      "routes": [
+      {
+        }
+      ]
+    },
+    "rootView": {
+      "viewName": "com.krishna.loginform.view.App",
+      "type": "XML",
+      "id": "App",
+      "async": true
+    }
+  }
+}
+>>>>>>> Project
