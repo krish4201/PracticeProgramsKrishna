@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> update
 sap.ui.define(
   [
     "sap/ui/core/mvc/Controller",
@@ -77,6 +80,7 @@ sap.ui.define(
     });
   },
 );
+<<<<<<< HEAD
 =======
 sap.ui.define([
   "sap/ui/core/mvc/Controller",
@@ -101,3 +105,5 @@ sap.ui.define([
   });
 });
 >>>>>>> Project
+=======
+>>>>>>> update

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <mvc:View
     controllerName="demo.model.odatamodel.controller.App"
     xmlns:mvc="sap.ui.core.mvc"
@@ -62,3 +63,12 @@
     </App>
 
 </mvc:View>
+=======
+<mvc:View controllerName="demo.model.odatamodel.controller.App"
+    displayBlock="true"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns="sap.m">
+    <App id="app">
+    </App>
+</mvc:View>
+>>>>>>> update

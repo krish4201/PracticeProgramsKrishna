@@ -1,7 +1,11 @@
 ## Application Details
 |               |
 | ------------- |
+<<<<<<< HEAD
 |**Generation Date and Time**<br>Thu May 14 2026 05:44:42 GMT+0000 (Coordinated Universal Time)|
+=======
+|**Generation Date and Time**<br>Thu May 14 2026 05:10:55 GMT+0000 (Coordinated Universal Time)|
+>>>>>>> update
 |**App Generator**<br>SAP Fiori Application Generator|
 |**App Generator Version**<br>1.24.0|
 |**Generation Platform**<br>SAP Business Application Studio|

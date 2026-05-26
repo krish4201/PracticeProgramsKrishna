@@ -7,10 +7,14 @@ type: application
 framework:
   name: SAPUI5
 <<<<<<< HEAD
+<<<<<<< HEAD
   version: 1.147.2
 =======
   version: 1.148.0
 >>>>>>> Project
+=======
+  version: 1.147.2
+>>>>>>> update
   libraries:
     - name: sap.m
     - name: sap.ui.core

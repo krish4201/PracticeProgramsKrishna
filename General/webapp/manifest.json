@@ -22,7 +22,11 @@
     "sap.ui5": {
 
         "rootView": {
+<<<<<<< HEAD
             "viewName": "demo.krishna.calculator.view.App20",
+=======
+            "viewName": "demo.krishna.calculator.view.App24",
+>>>>>>> update
             "type": "XML",
             "id": "App"
         },

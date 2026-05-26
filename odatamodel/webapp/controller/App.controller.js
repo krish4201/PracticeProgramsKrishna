@@ -1,4 +1,5 @@
 sap.ui.define([
+<<<<<<< HEAD
     "sap/ui/core/mvc/Controller"
 ], function(Controller) {
 
@@ -12,4 +13,14 @@ sap.ui.define([
 
     });
 
+=======
+  "sap/ui/core/mvc/Controller"
+], (BaseController) => {
+  "use strict";
+
+  return BaseController.extend("demo.model.odatamodel.controller.App", {
+      onInit() {
+      }
+  });
+>>>>>>> update
 });

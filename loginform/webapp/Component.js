@@ -7,6 +7,7 @@ sap.ui.define([
     return UIComponent.extend("com.krishna.loginform.Component", {
         metadata: {
 <<<<<<< HEAD
+<<<<<<< HEAD
             manifest: "json"
 =======
             manifest: "json",
@@ -14,11 +15,15 @@ sap.ui.define([
                 "sap.ui.core.IAsyncContentCreation"
             ]
 >>>>>>> Project
+=======
+            manifest: "json"
+>>>>>>> update
         },
 
         init() {
             // call the base component's init function
             UIComponent.prototype.init.apply(this, arguments);
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 
@@ -28,6 +33,8 @@ sap.ui.define([
             // enable routing
             this.getRouter().initialize();
 >>>>>>> Project
+=======
+>>>>>>> update
         }
     });
 });

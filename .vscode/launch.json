@@ -3,16 +3,22 @@
   "configurations": [
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> update
       "name": "Start calculator",
       "type": "node",
       "request": "launch",
       "cwd": "${workspaceFolder}/calculator",
+<<<<<<< HEAD
 =======
       "name": "Start localization",
       "type": "node",
       "request": "launch",
       "cwd": "${workspaceFolder}/localization",
 >>>>>>> Project
+=======
+>>>>>>> update
       "runtimeExecutable": "npx",
       "windows": {
         "runtimeExecutable": "npx.cmd"
@@ -32,6 +38,9 @@
         "DEBUG": "--inspect",
         "FIORI_TOOLS_URL_PARAMS": "sap-ui-xx-viewCache=false",
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> update
         "run.config": "{\"handlerId\":\"fiori_tools\",\"runnableId\":\"/home/user/projects/calculator\"}"
       }
     },
@@ -40,6 +49,7 @@
       "type": "node",
       "request": "launch",
       "cwd": "${workspaceFolder}/calculator",
+<<<<<<< HEAD
 =======
         "run.config": "{\"handlerId\":\"fiori_tools\",\"runnableId\":\"/home/user/Project/localization\"}"
       }
@@ -50,6 +60,8 @@
       "request": "launch",
       "cwd": "${workspaceFolder}/localization",
 >>>>>>> Project
+=======
+>>>>>>> update
       "runtimeExecutable": "npx",
       "windows": {
         "runtimeExecutable": "npx.cmd"
@@ -70,6 +82,9 @@
       "env": {
         "FIORI_TOOLS_URL_PARAMS": "sap-ui-xx-viewCache=false",
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> update
         "run.config": "{\"handlerId\":\"fiori_tools\",\"runnableId\":\"/home/user/projects/calculator\"}"
       }
     },
@@ -230,9 +245,224 @@
       "env": {
         "FIORI_TOOLS_URL_PARAMS": "sap-ui-xx-viewCache=false",
         "run.config": "{\"handlerId\":\"fiori_tools\",\"runnableId\":\"/home/user/projects/loginform\"}"
+<<<<<<< HEAD
 =======
         "run.config": "{\"handlerId\":\"fiori_tools\",\"runnableId\":\"/home/user/Project/localization\"}"
 >>>>>>> Project
+=======
+      }
+    },
+    {
+      "name": "Start fragment",
+      "type": "node",
+      "request": "launch",
+      "cwd": "${workspaceFolder}/fragment",
+      "runtimeExecutable": "npx",
+      "windows": {
+        "runtimeExecutable": "npx.cmd"
+      },
+      "runtimeArgs": [
+        "fiori",
+        "run"
+      ],
+      "args": [
+        "--open",
+        "test/flp.html#app-preview"
+      ],
+      "console": "internalConsole",
+      "internalConsoleOptions": "openOnSessionStart",
+      "outputCapture": "std",
+      "env": {
+        "DEBUG": "--inspect",
+        "FIORI_TOOLS_URL_PARAMS": "sap-ui-xx-viewCache=false",
+        "run.config": "{\"handlerId\":\"fiori_tools\",\"runnableId\":\"/home/user/projects/fragment\"}"
+      }
+    },
+    {
+      "name": "Start fragment Local",
+      "type": "node",
+      "request": "launch",
+      "cwd": "${workspaceFolder}/fragment",
+      "runtimeExecutable": "npx",
+      "windows": {
+        "runtimeExecutable": "npx.cmd"
+      },
+      "runtimeArgs": [
+        "fiori",
+        "run"
+      ],
+      "args": [
+        "--config",
+        "./ui5-local.yaml",
+        "--open",
+        "test/flp.html#app-preview"
+      ],
+      "console": "internalConsole",
+      "internalConsoleOptions": "openOnSessionStart",
+      "outputCapture": "std",
+      "env": {
+        "FIORI_TOOLS_URL_PARAMS": "sap-ui-xx-viewCache=false",
+        "run.config": "{\"handlerId\":\"fiori_tools\",\"runnableId\":\"/home/user/projects/fragment\"}"
+      }
+    },
+    {
+      "name": "Start odatamodel",
+      "type": "node",
+      "request": "launch",
+      "cwd": "${workspaceFolder}/odatamodel",
+      "runtimeExecutable": "npx",
+      "windows": {
+        "runtimeExecutable": "npx.cmd"
+      },
+      "runtimeArgs": [
+        "fiori",
+        "run"
+      ],
+      "args": [
+        "--open",
+        "test/flp.html#app-preview"
+      ],
+      "console": "internalConsole",
+      "internalConsoleOptions": "openOnSessionStart",
+      "outputCapture": "std",
+      "env": {
+        "DEBUG": "--inspect",
+        "FIORI_TOOLS_URL_PARAMS": "sap-ui-xx-viewCache=false",
+        "run.config": "{\"handlerId\":\"fiori_tools\",\"runnableId\":\"/home/user/projects/odatamodel\"}"
+      }
+    },
+    {
+      "name": "Start odatamodel Local",
+      "type": "node",
+      "request": "launch",
+      "cwd": "${workspaceFolder}/odatamodel",
+      "runtimeExecutable": "npx",
+      "windows": {
+        "runtimeExecutable": "npx.cmd"
+      },
+      "runtimeArgs": [
+        "fiori",
+        "run"
+      ],
+      "args": [
+        "--config",
+        "./ui5-local.yaml",
+        "--open",
+        "test/flp.html#app-preview"
+      ],
+      "console": "internalConsole",
+      "internalConsoleOptions": "openOnSessionStart",
+      "outputCapture": "std",
+      "env": {
+        "FIORI_TOOLS_URL_PARAMS": "sap-ui-xx-viewCache=false",
+        "run.config": "{\"handlerId\":\"fiori_tools\",\"runnableId\":\"/home/user/projects/odatamodel\"}"
+      }
+    },
+    {
+      "name": "Start odatamodel",
+      "type": "node",
+      "request": "launch",
+      "cwd": "${workspaceFolder}/odatamodel",
+      "runtimeExecutable": "npx",
+      "windows": {
+        "runtimeExecutable": "npx.cmd"
+      },
+      "runtimeArgs": [
+        "fiori",
+        "run"
+      ],
+      "args": [
+        "--open",
+        "test/flp.html#app-preview"
+      ],
+      "console": "internalConsole",
+      "internalConsoleOptions": "openOnSessionStart",
+      "outputCapture": "std",
+      "env": {
+        "DEBUG": "--inspect",
+        "FIORI_TOOLS_URL_PARAMS": "sap-ui-xx-viewCache=false",
+        "run.config": "{\"handlerId\":\"fiori_tools\",\"runnableId\":\"/home/user/projects/odatamodel\"}"
+      }
+    },
+    {
+      "name": "Start odatamodel Local",
+      "type": "node",
+      "request": "launch",
+      "cwd": "${workspaceFolder}/odatamodel",
+      "runtimeExecutable": "npx",
+      "windows": {
+        "runtimeExecutable": "npx.cmd"
+      },
+      "runtimeArgs": [
+        "fiori",
+        "run"
+      ],
+      "args": [
+        "--config",
+        "./ui5-local.yaml",
+        "--open",
+        "test/flp.html#app-preview"
+      ],
+      "console": "internalConsole",
+      "internalConsoleOptions": "openOnSessionStart",
+      "outputCapture": "std",
+      "env": {
+        "FIORI_TOOLS_URL_PARAMS": "sap-ui-xx-viewCache=false",
+        "run.config": "{\"handlerId\":\"fiori_tools\",\"runnableId\":\"/home/user/projects/odatamodel\"}"
+      }
+    },
+    {
+      "name": "Start odatamodel",
+      "type": "node",
+      "request": "launch",
+      "cwd": "${workspaceFolder}/odatamodel",
+      "runtimeExecutable": "npx",
+      "windows": {
+        "runtimeExecutable": "npx.cmd"
+      },
+      "runtimeArgs": [
+        "fiori",
+        "run"
+      ],
+      "args": [
+        "--open",
+        "test/flp.html#app-preview"
+      ],
+      "console": "internalConsole",
+      "internalConsoleOptions": "openOnSessionStart",
+      "outputCapture": "std",
+      "env": {
+        "DEBUG": "--inspect",
+        "FIORI_TOOLS_URL_PARAMS": "sap-ui-xx-viewCache=false",
+        "run.config": "{\"handlerId\":\"fiori_tools\",\"runnableId\":\"/home/user/projects/odatamodel\"}"
+      }
+    },
+    {
+      "name": "Start odatamodel Local",
+      "type": "node",
+      "request": "launch",
+      "cwd": "${workspaceFolder}/odatamodel",
+      "runtimeExecutable": "npx",
+      "windows": {
+        "runtimeExecutable": "npx.cmd"
+      },
+      "runtimeArgs": [
+        "fiori",
+        "run"
+      ],
+      "args": [
+        "--config",
+        "./ui5-local.yaml",
+        "--open",
+        "test/flp.html#app-preview"
+      ],
+      "console": "internalConsole",
+      "internalConsoleOptions": "openOnSessionStart",
+      "outputCapture": "std",
+      "env": {
+        "FIORI_TOOLS_URL_PARAMS": "sap-ui-xx-viewCache=false",
+        "run.config": "{\"handlerId\":\"fiori_tools\",\"runnableId\":\"/home/user/projects/odatamodel\"}"
+>>>>>>> update
       }
     }
   ]

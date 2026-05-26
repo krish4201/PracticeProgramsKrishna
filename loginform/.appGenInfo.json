@@ -1,10 +1,14 @@
 {
   "generationParameters": {
 <<<<<<< HEAD
+<<<<<<< HEAD
     "generationDate": "Tue May 12 2026 09:47:01 GMT+0000 (Coordinated Universal Time)",
 =======
     "generationDate": "Mon May 18 2026 11:03:51 GMT+0000 (Coordinated Universal Time)",
 >>>>>>> Project
+=======
+    "generationDate": "Tue May 12 2026 09:47:01 GMT+0000 (Coordinated Universal Time)",
+>>>>>>> update
     "generatorPlatform": "SAP Business Application Studio",
     "serviceType": "None",
     "metadataFilename": "",
@@ -15,10 +19,14 @@
     "appNamespace": "com.krishna",
     "ui5Theme": "sap_horizon",
 <<<<<<< HEAD
+<<<<<<< HEAD
     "ui5Version": "1.147.2",
 =======
     "ui5Version": "1.148.0",
 >>>>>>> Project
+=======
+    "ui5Version": "1.147.2",
+>>>>>>> update
     "enableEslint": true,
     "enableTypeScript": false,
     "showMockDataInfo": false,

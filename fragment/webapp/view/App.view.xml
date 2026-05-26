@@ -1,0 +1,10 @@
+<mvc:View controllerName="com.krishna.fragment.controller.App"
+    displayBlock="true"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns="sap.m">
+    <App id="app">
+    <VBox >
+    <Input placeholder="Hello"/>
+    </VBox>
+    </App>
+</mvc:View>
